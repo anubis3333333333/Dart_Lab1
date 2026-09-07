@@ -43,6 +43,34 @@ void main() {
   //     res+=text
   //   }
   //   return res;
-  List<String> longNames = names.where((name) => name.length >4).toList();
-  print(longNames);
+  // List<String> longNames = names.where((name) => name.length >4).toList();
+  // print(longNames);
+  int score = 20;
+  String grade;
+  if (score >=10){
+    grade = 'a'
+
+  } elseif (score <= 10){
+    grade = 'e'
+
+  }
+  print(grade)
+
+  for (int i =0; i <5;i++){
+    print(i);
+  }
+
+  int n = 0;
+  while (n<3){
+    print(n);
+    n++;
+  }
+
+  String day = 'пн';
+  switch (day){
+    case '1':
+      print(1)
+    default:
+    print(2)
+  }
 }
